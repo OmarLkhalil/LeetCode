@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode Programming skills
+LeetCode Programming skills int Java, Python

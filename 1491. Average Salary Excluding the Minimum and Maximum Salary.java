@@ -19,7 +19,7 @@ class Solution {
 
 
 //Pyton
-
+/*
 #remove min and max number.
 #Calculate average.
 
@@ -30,7 +30,7 @@ class Solution:
         salary.remove(min(salary))
         return (sum(salary)/len(salary))
 
-
+*/
 /*
 
 

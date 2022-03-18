@@ -18,21 +18,9 @@ class Solution {
 
 
 
-//Pyton
+
+
 /*
-#remove min and max number.
-#Calculate average.
-
-
-class Solution:
-    def average(self, salary):
-        salary.remove(max(salary))
-        salary.remove(min(salary))
-        return (sum(salary)/len(salary))
-
-*/
-/*
-
 
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Count Odd Numbers in an Interval Range.
 Memory Usage: 41 MB, less than 38.62% of Java online submissions for Count Odd Numbers in an Interval Range.

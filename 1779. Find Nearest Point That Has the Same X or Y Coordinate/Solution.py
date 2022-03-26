@@ -1,7 +1,7 @@
 class Solution:
    def nearestValidPoint(self, x, y, points):
         init_d=float('inf')
-        result=0
+        result=-1
         for i in range(len(points)):
             
             x0 = points[i][0]
@@ -13,5 +13,4 @@ class Solution:
                 distance = abs(dx) + abs(dy)
                 if distance < init_d:
                     init_d, result = distance, i
-                    
         return result

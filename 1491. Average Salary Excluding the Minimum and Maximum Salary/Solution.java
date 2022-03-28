@@ -6,8 +6,8 @@ class Solution {
         int minimumSalary = salary[0], maximumSalary = salary[0];
         double summation = salary[0];
         for (int i = 1; i < ArrayLength; i++) {
-            if (salary[i]<minimumSalary) minimumSalary=salary[i];
-            if (salary[i]>maximumSalary) maximumSalary=salary[i];
+            if (minimumSalary > salary[i]) minimumSalary=salary[i];
+            if (maximumSalary < salary[i]) maximumSalary=salary[i];
             summation += salary[i];
         }
         summation = summation - maximumSalary - minimumSalary;
